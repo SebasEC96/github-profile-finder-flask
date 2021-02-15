@@ -27,7 +27,7 @@ def profile(name):
         return redirect(url_for('error404'))
     else:
         date = datetime.strptime(
-            profile['created_at'], "%Y-%m-%dT%H:%M:%S%z").date().strftime("%d/%m/%y")
+            profile['created_at'], "%Y-%m-%dT%H:%M:%SZ").date().strftime("%d/%m/%y")
         return render_template('profile.html', profile=profile, date=date)
 
 
