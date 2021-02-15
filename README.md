@@ -1,11 +1,11 @@
-# github-profile-finder-flask
+### github-profile-finder-flask
 
-Install dependencies 
+### Install dependencies 
 python -m pip install -r requirements.txt
 
-Linux:
+### Linux:
 export FLASK_APP=main.py
 export FLASK_ENV=development
 
-Run:
+### Run:
 flask run
